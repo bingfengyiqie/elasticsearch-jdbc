@@ -1,0 +1,141 @@
+----------------------------------------------------------------
+Fri Mar 30 18:21:05 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:06 CST 2018:
+Shutting down instance a816c00e-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:06 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 7fa040ff-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:07 CST 2018:
+Shutting down instance 7fa040ff-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:07 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 6fe201f0-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:08 CST 2018:
+Shutting down instance 6fe201f0-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:08 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance e30582e4-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:08 CST 2018:
+Shutting down instance e30582e4-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:09 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 904d03d8-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:09 CST 2018:
+Shutting down instance 904d03d8-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:15 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 77b884cc-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:15 CST 2018:
+Shutting down instance 77b884cc-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:19 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 5454c623-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:20 CST 2018:
+Shutting down instance 5454c623-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:23 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance c3d5477a-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Fri Mar 30 18:21:24 CST 2018:
+Shutting down instance c3d5477a-0162-766c-ceb4-00000d40edc8 on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+----------------------------------------------------------------
+Fri Mar 30 18:21:27 CST 2018:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance 363a08d1-0162-766c-ceb4-00000d40edc8 
+on database directory memory:/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc/myDB with class loader sun.misc.Launcher$AppClassLoader@7fdb04ed 
+Loaded from file:/Users/yangbing/.gradle/caches/modules-2/files-2.1/org.apache.derby/derby/10.12.1.1/75070c744a8e52a7d17b8b476468580309d5cd09/derby-10.12.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_80-b15
+user.dir=/Users/yangbing/Documents/jf/Java-20180128/code/src-study/elasticsearch-jdbc
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.13
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

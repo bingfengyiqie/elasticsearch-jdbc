@@ -10,6 +10,11 @@ println "Host: " + java.net.InetAddress.getLocalHost()
 println "Gradle: " + gradle.gradleVersion + " JVM: " + org.gradle.internal.jvm.Jvm.current() + " Groovy: " + GroovySystem.getVersion()
 println "Build: group: '${project.group}', name: '${project.name}', version: '${project.version}'"
 
+allprojects {
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
+}
+
 ext {
     pluginName = 'elasticsearch-jdbc'
     pluginClassname  = 'org.xbib.elasticsearch.plugin.jdbc.JDBCPlugin'
@@ -55,7 +60,7 @@ repositories {
     }
 }
 
-sourceSets {
+/*sourceSets {
     integrationTest {
         java {
             compileClasspath += main.output + test.output
@@ -66,7 +71,7 @@ sourceSets {
             srcDir file('src/integration-test/resources')
         }
     }
-}
+}*/
 
 configurations.all {
     resolutionStrategy.cacheDynamicVersionsFor 0, 'seconds'
@@ -75,8 +80,8 @@ configurations.all {
 
 configurations {
     wagon
-    integrationTestCompile.extendsFrom testCompile
-    integrationTestRuntime.extendsFrom testRuntime
+//    integrationTestCompile.extendsFrom testCompile
+//    integrationTestRuntime.extendsFrom testRuntime
     driverJars
 }
 
@@ -95,9 +100,9 @@ dependencies {
     testCompile 'org.uncommons:reportng:1.1.4'
     testCompile 'org.apache.logging.log4j:log4j-slf4j-impl:' + versions.log4j
     testCompile 'org.apache.logging.log4j:log4j-core:'+ versions.log4j
-    integrationTestCompile 'org.testng:testng:' + versions.testng
-    integrationTestCompile 'org.elasticsearch:elasticsearch:' + versions.elasticsearch
-    integrationTestCompile 'net.java.dev.jna:jna:' + versions.jna
+//    integrationTestCompile 'org.testng:testng:' + versions.testng
+//    integrationTestCompile 'org.elasticsearch:elasticsearch:' + versions.elasticsearch
+//    integrationTestCompile 'net.java.dev.jna:jna:' + versions.jna
     // for distribution
     driverJars('org.xbib.jdbc:jdbc-driver-csv:' + versions.'jdbc-driver-csv') {
         exclude group: 'org.apache.logging.log4j'
@@ -112,18 +117,18 @@ dependencies {
     // driverJars 'com.oracle:ojdbc7:12.1.0.1'
     wagon 'org.apache.maven.wagon:wagon-ssh-external:' + versions.wagon
 }
-
-task integrationTest(type: Test, dependsOn: [':unpackPlugin']) {
-    testClassesDir = sourceSets.integrationTest.output.classesDir
-    classpath = configurations.integrationTestCompile
-    classpath += fileTree('plugins/' + pluginName).include('*.jar')
-    classpath += sourceSets.integrationTest.output
-    // remove identical jars from classpath, otherwise Elasticsearch will complain a "jar hell"
-    //classpath -= configurations.releaseJars
-    outputs.upToDateWhen { false }
-    systemProperty 'log4j.configurationFile', projectDir.absolutePath + '/src/test/resources/log4j2.xml'
-    systemProperty 'path.home', projectDir.absolutePath
-}
+//
+//task integrationTest(type: Test, dependsOn: [':unpackPlugin']) {
+//    testClassesDir = sourceSets.integrationTest.output.classesDir
+//    classpath = configurations.integrationTestCompile
+//    classpath += fileTree('plugins/' + pluginName).include('*.jar')
+//    classpath += sourceSets.integrationTest.output
+//    // remove identical jars from classpath, otherwise Elasticsearch will complain a "jar hell"
+//    //classpath -= configurations.releaseJars
+//    outputs.upToDateWhen { false }
+//    systemProperty 'log4j.configurationFile', projectDir.absolutePath + '/src/test/resources/log4j2.xml'
+//    systemProperty 'path.home', projectDir.absolutePath
+//}
 
 tasks.withType(Test) {
     reports.html.destination = file("${reporting.baseDir}/${name}")
@@ -154,12 +159,12 @@ test {
 databases.each { database ->
     apply from: rootProject.file("gradle/${database}.gradle")
 }
-
-check {
-    databases.each { database ->
-        dependsOn "${database}IntegrationTest"
-    }
-}
+//
+//check {
+//    databases.each { database ->
+//        dependsOn "${database}IntegrationTest"
+//    }
+//}
 
 task sourcesJar(type: Jar, dependsOn: classes) {
     from sourceSets.main.allSource
