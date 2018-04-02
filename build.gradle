@@ -86,8 +86,9 @@ configurations {
 }
 
 dependencies {
+    compile group: 'com.twitter', name: 'jsr166e', version: versions.jsr166e
     compile 'org.elasticsearch:elasticsearch:' + versions.elasticsearch
-    compile 'org.xbib.elasticsearch.plugin:elasticsearch-helper:' + versions.'elasticsearch-helper'
+//    compile 'org.xbib.elasticsearch.plugin:elasticsearch-helper:' + versions.'elasticsearch-helper'
     compile 'org.apache.logging.log4j:log4j-slf4j-impl:' + versions.log4j
     compile 'org.apache.logging.log4j:log4j-core:'+ versions.log4j
     compile('com.vividsolutions:jts:' + versions.jts) {
@@ -102,20 +103,20 @@ dependencies {
     testCompile 'org.apache.logging.log4j:log4j-core:'+ versions.log4j
 //    integrationTestCompile 'org.testng:testng:' + versions.testng
 //    integrationTestCompile 'org.elasticsearch:elasticsearch:' + versions.elasticsearch
-//    integrationTestCompile 'net.java.dev.jna:jna:' + versions.jna
+    //    integrationTestCompile 'net.java.dev.jna:jna:' + versions.jna
     // for distribution
     driverJars('org.xbib.jdbc:jdbc-driver-csv:' + versions.'jdbc-driver-csv') {
         exclude group: 'org.apache.logging.log4j'
     }
-    driverJars 'org.apache.derby:derby:' + versions.derby
-    driverJars 'com.h2database:h2:' + versions.h2
-    driverJars 'org.hsqldb:hsqldb:' + versions.hsqldb
-    driverJars 'mysql:mysql-connector-java:' + versions.mysql
-    driverJars 'org.postgresql:postgresql:' + versions.postgresql
+//    driverJars 'org.apache.derby:derby:' + versions.derby
+//    driverJars 'com.h2database:h2:' + versions.h2
+//    driverJars 'org.hsqldb:hsqldb:' + versions.hsqldb
+//    driverJars 'org.postgresql:postgresql:' + versions.postgresql
     // download from Oracle JDBC download site (needs registration)
     // http://www.oracle.com/technetwork/database/features/jdbc/jdbc-drivers-12c-download-1958347.html
     // driverJars 'com.oracle:ojdbc7:12.1.0.1'
     wagon 'org.apache.maven.wagon:wagon-ssh-external:' + versions.wagon
+    compile 'mysql:mysql-connector-java:' + versions.mysql
 }
 //
 //task integrationTest(type: Test, dependsOn: [':unpackPlugin']) {
